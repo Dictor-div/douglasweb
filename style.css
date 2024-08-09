@@ -27,7 +27,7 @@ body{
     top: 0;
     left: 0;
     padding: 4rem ;
-    background: rgba(0, 0, 0, 0.3);
+    background: var(--bg-color);
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
@@ -168,6 +168,9 @@ section{
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 1.8;
+}
+.home-content{
+    font-size: x-large;
 }
 .home-img img{
     width: 33vh;
@@ -423,6 +426,8 @@ div.gallery {
     padding-left: 3rem 7rem;
     padding-bottom: 4rem;
     font-size: 4rem;
+    justify-content: center;
+    display: flex;
     
     
 
