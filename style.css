@@ -292,7 +292,7 @@ section{
 }
 .services-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     align-items: center;
     gap: 1.5rem;
     
@@ -300,8 +300,10 @@ section{
 .service-box{
     display:flex;
     justify-content: center;
+    
     background-color: var(--main-color);
     height: 600px;
+    
     border-radius:3rem ;
     cursor: pointer;
     border: 5px solid transparent;
