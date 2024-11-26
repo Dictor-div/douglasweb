@@ -283,27 +283,32 @@ section{
     margin: 5rem 0;
 }
 /*..............................Services....................................*/
+.heading{
+    text-align: center;
+    font-size: 7rem;
+    margin: 5rem 0;
+}
 .services{
     background-color: var(--bg-color);
     color: black;
+    
 }
 .services h2{
     color: var(--text-color);
 }
 .services-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     align-items: center;
-    gap: 1.5rem;
+    gap: 2.5rem;
     
 }
 .service-box{
     display:flex;
-    justify-content: center;
-    
+    justify-content:space-around;
+    align-items: center;
     background-color: var(--main-color);
     height: 600px;
-    
     border-radius:3rem ;
     cursor: pointer;
     border: 5px solid transparent;
@@ -321,7 +326,7 @@ section{
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding: 3rem;
+    padding: 5rem;
    
 }
 .service-info h4{
@@ -329,7 +334,7 @@ section{
     margin: 2rem 0;
     font-weight: 800;
     border-radius: 7px;
-    color: var(--text-color);
+   
 }
 .service-info p{
     font-size: 2rem;
